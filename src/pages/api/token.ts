@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { generateRandomAlphanumeric } from "@/lib/util";
 import { AccessToken, type AccessTokenOptions, type VideoGrant } from "livekit-server-sdk";
-import { RoomAgentDispatch, RoomConfiguration } from "@livekit/protocol";
+import { RoomAgentDispatch, RoomConfiguration } from "livekit-server-sdk";
 import { TokenResult } from "../../lib/types";
 
 const apiKey = process.env.LIVEKIT_API_KEY;
