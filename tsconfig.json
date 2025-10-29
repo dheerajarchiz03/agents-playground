@@ -15,6 +15,7 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
+      "@livekit/protocol": ["./node_modules/livekit-server-sdk/node_modules/@livekit/protocol"]
       "@/*": ["./src/*"]
     }
   },
